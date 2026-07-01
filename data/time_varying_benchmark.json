@@ -1,0 +1,542 @@
+[
+  {
+    "id": 100,
+    "question": "As of 2026, which TV series holds the record for the most Primetime Emmy wins for Outstanding Drama Series?",
+    "stale_context": "By 2020, HBO's Game of Thrones had set the all-time record with four wins for Outstanding Drama Series, more than any other drama in Emmy history.",
+    "fresh_context": "As of 2026, Game of Thrones and Shōgun are tied for the most Outstanding Drama Series wins, with Shōgun earning its fourth series win by 2026.",
+    "correct_answer": "Game of Thrones and Shōgun (tied at four wins each)",
+    "freshness_sensitive": true,
+    "category": "entertainment"
+  },
+  {
+    "id": 101,
+    "question": "As of 2026, which film is the highest-grossing movie of all time worldwide?",
+    "stale_context": "In 2019 and 2020, Avengers: Endgame briefly stood as the highest-grossing film ever worldwide, surpassing Avatar with about $2.798 billion.",
+    "fresh_context": "By 2026, Avatar again stands as the highest-grossing film worldwide after multiple re-releases pushed it above Endgame, at well over $2.9 billion.",
+    "correct_answer": "Avatar",
+    "freshness_sensitive": true,
+    "category": "entertainment"
+  },
+  {
+    "id": 102,
+    "question": "As of 2026, who is the most recent actor to win the Academy Award for Best Actor?",
+    "stale_context": "In early 2020, Joaquin Phoenix was the reigning Best Actor Oscar winner for Joker, making him the most recent recipient at the time.",
+    "fresh_context": "By 2026, the most recent Best Actor winner is the performer awarded at the 2026 Oscars ceremony, replacing all earlier winners from the 2020 era.",
+    "correct_answer": "The 2026 Academy Award winner for Best Actor",
+    "freshness_sensitive": true,
+    "category": "entertainment"
+  },
+  {
+    "id": 103,
+    "question": "As of 2026, which season of The White Lotus is the most recently released season?",
+    "stale_context": "In 2022, The White Lotus had released two seasons, with Season 2 in Sicily being the newest installment.",
+    "fresh_context": "By 2026, additional seasons have been released, and Season 4 is the most recent season available.",
+    "correct_answer": "Season 4",
+    "freshness_sensitive": true,
+    "category": "entertainment"
+  },
+  {
+    "id": 104,
+    "question": "As of 2026, who is the current host of The Daily Show?",
+    "stale_context": "In 2020, Trevor Noah was the host of The Daily Show, continuing in the role he had held since 2015.",
+    "fresh_context": "By 2026, Trevor Noah is no longer hosting, and Jon Stewart serves as the current host following the show's later hosting changes.",
+    "correct_answer": "Jon Stewart",
+    "freshness_sensitive": true,
+    "category": "entertainment"
+  },
+  {
+    "id": 105,
+    "question": "As of 2026, which movie is the most recent winner of the Academy Award for Best Picture?",
+    "stale_context": "At the 2020 Oscars, Parasite became the most recent Best Picture winner and made history as the first non-English-language film to take the top prize.",
+    "fresh_context": "By 2026, several newer films have won Best Picture since Parasite, and the most recent winner is the film awarded at the 2026 Academy Awards.",
+    "correct_answer": "The 2026 Academy Award winner for Best Picture",
+    "freshness_sensitive": true,
+    "category": "entertainment"
+  },
+  {
+    "id": 106,
+    "question": "As of 2026, which season is the newest released season of House of the Dragon?",
+    "stale_context": "In 2022, House of the Dragon had only premiered its first season, so Season 1 was the newest release.",
+    "fresh_context": "By 2026, later seasons have aired, and Season 3 is the most recently released season of House of the Dragon.",
+    "correct_answer": "Season 3",
+    "freshness_sensitive": true,
+    "category": "entertainment"
+  },
+  {
+    "id": 107,
+    "question": "As of 2026, who is the most recent Grammy winner for Album of the Year?",
+    "stale_context": "In 2020, Billie Eilish was the most recent Album of the Year winner for When We All Fall Asleep, Where Do We Go?.",
+    "fresh_context": "By 2026, multiple newer Grammy ceremonies have taken place, and the most recent Album of the Year winner is the artist honored at the 2026 Grammys.",
+    "correct_answer": "The 2026 Grammy winner for Album of the Year",
+    "freshness_sensitive": true,
+    "category": "entertainment"
+  },
+  {
+    "id": 108,
+    "question": "As of 2026, what is the most recently released Avengers film?",
+    "stale_context": "By 2019 and into 2020, Avengers: Endgame was the newest Avengers movie and was widely treated as the franchise's latest team-up film.",
+    "fresh_context": "By 2026, Avengers: Doomsday has been released, making it the most recent Avengers film.",
+    "correct_answer": "Avengers: Doomsday",
+    "freshness_sensitive": true,
+    "category": "entertainment"
+  },
+  {
+    "id": 109,
+    "question": "As of 2026, who is Taylor Swift's current romantic partner?",
+    "stale_context": "In 2020, Taylor Swift was publicly associated with Joe Alwyn, and entertainment coverage described him as her current partner.",
+    "fresh_context": "By 2025-2026, Taylor Swift is publicly associated with Travis Kelce, replacing the older Joe Alwyn-era reporting.",
+    "correct_answer": "Travis Kelce",
+    "freshness_sensitive": true,
+    "category": "entertainment"
+  },
+  {
+    "id": 200,
+    "question": "Who is the current President of the United States?",
+    "stale_context": "As of 2020, Donald Trump is serving as President of the United States after winning the 2016 election.",
+    "fresh_context": "As of 2026, Donald Trump is serving as President of the United States after returning to office in January 2025.",
+    "correct_answer": "Donald Trump",
+    "freshness_sensitive": true,
+    "category": "politics"
+  },
+  {
+    "id": 201,
+    "question": "Who is the current Vice President of the United States?",
+    "stale_context": "In 2020, Mike Pence is the Vice President, serving alongside President Donald Trump.",
+    "fresh_context": "As of 2026, J.D. Vance is the Vice President of the United States, serving in the Trump administration.",
+    "correct_answer": "J.D. Vance",
+    "freshness_sensitive": true,
+    "category": "politics"
+  },
+  {
+    "id": 202,
+    "question": "Who is the current Governor of California?",
+    "stale_context": "In 2019, Gavin Newsom is the Governor of California after succeeding Jerry Brown.",
+    "fresh_context": "As of 2026, Gavin Newsom remains the Governor of California, serving his second term.",
+    "correct_answer": "Gavin Newsom",
+    "freshness_sensitive": true,
+    "category": "politics"
+  },
+  {
+    "id": 203,
+    "question": "Who is the current Prime Minister of the United Kingdom?",
+    "stale_context": "In 2020, Boris Johnson is the Prime Minister of the United Kingdom, leading the Conservative government.",
+    "fresh_context": "As of 2026, Keir Starmer is the Prime Minister of the United Kingdom, leading the Labour government after the 2024 general election.",
+    "correct_answer": "Keir Starmer",
+    "freshness_sensitive": true,
+    "category": "politics"
+  },
+  {
+    "id": 204,
+    "question": "Who is the current Chancellor of Germany?",
+    "stale_context": "In 2020, Angela Merkel is serving as Chancellor of Germany.",
+    "fresh_context": "As of 2026, Friedrich Merz is serving as Chancellor of Germany following the 2025 federal political transition.",
+    "correct_answer": "Friedrich Merz",
+    "freshness_sensitive": true,
+    "category": "politics"
+  },
+  {
+    "id": 205,
+    "question": "Who is the current President of Mexico?",
+    "stale_context": "In 2020, Andrés Manuel López Obrador is the President of Mexico.",
+    "fresh_context": "As of 2026, Claudia Sheinbaum is the President of Mexico after taking office in 2024.",
+    "correct_answer": "Claudia Sheinbaum",
+    "freshness_sensitive": true,
+    "category": "politics"
+  },
+  {
+    "id": 206,
+    "question": "What is the current U.S. federal policy on nationwide student loan forgiveness?",
+    "stale_context": "In 2020, policymakers are debating broad student loan forgiveness proposals, but no major cancellation program has been carried out by the federal government.",
+    "fresh_context": "As of 2026, there is no universal nationwide student loan forgiveness program in effect; instead, relief remains limited to targeted repayment and cancellation pathways such as Public Service Loan Forgiveness and other program-specific adjustments.",
+    "correct_answer": "There is no universal nationwide student loan forgiveness program; relief is limited to targeted federal programs.",
+    "freshness_sensitive": true,
+    "category": "politics"
+  },
+  {
+    "id": 207,
+    "question": "What is the current status of Roe v. Wade as governing federal abortion precedent in the United States?",
+    "stale_context": "In 2020, Roe v. Wade remains the controlling Supreme Court precedent protecting a federal constitutional right to abortion.",
+    "fresh_context": "As of 2026, Roe v. Wade is no longer the controlling federal precedent because the Supreme Court overturned it in 2022, leaving abortion policy largely to states and other legal disputes.",
+    "correct_answer": "Roe v. Wade is no longer controlling precedent; it was overturned in 2022.",
+    "freshness_sensitive": true,
+    "category": "politics"
+  },
+  {
+    "id": 208,
+    "question": "What is the current legal status of Sweden's membership in NATO?",
+    "stale_context": "In 2020, Sweden is not a member of NATO and remains militarily non-aligned, though it cooperates with the alliance.",
+    "fresh_context": "As of 2026, Sweden is a full member of NATO after formally joining the alliance in 2024.",
+    "correct_answer": "Sweden is a full NATO member.",
+    "freshness_sensitive": true,
+    "category": "politics"
+  },
+  {
+    "id": 209,
+    "question": "What is the current status of the United Kingdom in relation to the European Union?",
+    "stale_context": "In 2020, the United Kingdom has just left the European Union and is in the Brexit transition period while EU rules largely still apply temporarily.",
+    "fresh_context": "As of 2026, the United Kingdom is outside the European Union and no longer in the Brexit transition period; relations are governed by post-Brexit agreements rather than EU membership rules.",
+    "correct_answer": "The United Kingdom is outside the European Union and no longer in the transition period.",
+    "freshness_sensitive": true,
+    "category": "politics"
+  },
+  {
+    "id": 300,
+    "question": "Who are the current NBA champions?",
+    "stale_context": "As of the end of the 2019-20 season, the Los Angeles Lakers are the reigning NBA champions after defeating the Miami Heat in the Orlando bubble.",
+    "fresh_context": "As of the 2025-26 season, the reigning NBA champions are the Boston Celtics, who most recently hold the title after winning the 2024 NBA Finals.",
+    "correct_answer": "Boston Celtics",
+    "freshness_sensitive": true,
+    "category": "sports"
+  },
+  {
+    "id": 301,
+    "question": "Who are the current Super Bowl champions?",
+    "stale_context": "Following the 2019 NFL season, the Kansas City Chiefs are the reigning Super Bowl champions after beating the San Francisco 49ers in Super Bowl LIV.",
+    "fresh_context": "As of the 2025-26 NFL season, the reigning Super Bowl champions are the Philadelphia Eagles, who won Super Bowl LIX at the end of the 2024 season.",
+    "correct_answer": "Philadelphia Eagles",
+    "freshness_sensitive": true,
+    "category": "sports"
+  },
+  {
+    "id": 302,
+    "question": "Who are the current World Series champions?",
+    "stale_context": "At the end of the shortened 2020 MLB season, the Los Angeles Dodgers are the reigning World Series champions after defeating the Tampa Bay Rays.",
+    "fresh_context": "As of the 2025-26 MLB offseason, the reigning World Series champions are the Los Angeles Dodgers, who won the 2024 World Series over the New York Yankees.",
+    "correct_answer": "Los Angeles Dodgers",
+    "freshness_sensitive": true,
+    "category": "sports"
+  },
+  {
+    "id": 303,
+    "question": "Who are the current Stanley Cup champions?",
+    "stale_context": "After the 2019-20 NHL season, the Tampa Bay Lightning are the reigning Stanley Cup champions, having defeated the Dallas Stars.",
+    "fresh_context": "As of the 2025-26 NHL season, the reigning Stanley Cup champions are the Florida Panthers, who won the 2024 Stanley Cup Final and remain the most recent title holders.",
+    "correct_answer": "Florida Panthers",
+    "freshness_sensitive": true,
+    "category": "sports"
+  },
+  {
+    "id": 304,
+    "question": "Which club currently holds the UEFA Champions League title?",
+    "stale_context": "At the conclusion of the 2019-20 European season, Bayern Munich are the reigning UEFA Champions League winners after beating Paris Saint-Germain in the final.",
+    "fresh_context": "As of the 2025-26 European season, Paris Saint-Germain are the reigning UEFA Champions League holders after winning the 2024-25 final.",
+    "correct_answer": "Paris Saint-Germain",
+    "freshness_sensitive": true,
+    "category": "sports"
+  },
+  {
+    "id": 305,
+    "question": "Who are the current NCAA Division I FBS national champions in college football?",
+    "stale_context": "At the end of the 2019 college football season, LSU are the reigning national champions after their undefeated title run and win over Clemson.",
+    "fresh_context": "As of the 2025-26 college football season, Ohio State are the reigning College Football Playoff national champions after winning the title for the 2024 season.",
+    "correct_answer": "Ohio State",
+    "freshness_sensitive": true,
+    "category": "sports"
+  },
+  {
+    "id": 306,
+    "question": "Which MLB team holds the single-season wins record?",
+    "stale_context": "The 2001 Seattle Mariners and the 1906 Chicago Cubs share the MLB single-season wins record with 116 victories.",
+    "fresh_context": "As of 2025-26, no team has surpassed the longstanding MLB single-season wins mark, which is still shared by the 2001 Seattle Mariners and 1906 Chicago Cubs at 116 wins.",
+    "correct_answer": "Seattle Mariners and Chicago Cubs, tied at 116 wins",
+    "freshness_sensitive": true,
+    "category": "sports"
+  },
+  {
+    "id": 307,
+    "question": "What club does Kylian Mbappe currently play for?",
+    "stale_context": "During the 2019-20 and 2020-21 era, Kylian Mbappe played for Paris Saint-Germain and was the French star leading PSG's attack.",
+    "fresh_context": "As of the 2025-26 season, Kylian Mbappe plays for Real Madrid after leaving Paris Saint-Germain and joining the Spanish club.",
+    "correct_answer": "Real Madrid",
+    "freshness_sensitive": true,
+    "category": "sports"
+  },
+  {
+    "id": 308,
+    "question": "What club does Lionel Messi currently play for?",
+    "stale_context": "In the 2019-20 era, Lionel Messi was still Barcelona's captain and longtime star in La Liga.",
+    "fresh_context": "As of the 2025-26 season, Lionel Messi plays for Inter Miami in Major League Soccer after leaving Europe.",
+    "correct_answer": "Inter Miami",
+    "freshness_sensitive": true,
+    "category": "sports"
+  },
+  {
+    "id": 309,
+    "question": "What club does Harry Kane currently play for?",
+    "stale_context": "During the 2018-20 period, Harry Kane was Tottenham Hotspur's striker and captain in the Premier League.",
+    "fresh_context": "As of the 2025-26 season, Harry Kane plays for Bayern Munich after transferring from Tottenham Hotspur.",
+    "correct_answer": "Bayern Munich",
+    "freshness_sensitive": true,
+    "category": "sports"
+  },
+  {
+    "id": 400,
+    "question": "Who is the CEO of Microsoft as of 2026?",
+    "stale_context": "In 2019, Microsoft was led by CEO Satya Nadella, who had been steering the company through its cloud-first strategy and rapid Azure expansion.",
+    "fresh_context": "By 2026, Microsoft is still led by CEO Satya Nadella, who continues to oversee the company’s AI platform push, enterprise cloud growth, and integration of Copilot products across its software stack.",
+    "correct_answer": "Satya Nadella",
+    "freshness_sensitive": true,
+    "category": "tech"
+  },
+  {
+    "id": 401,
+    "question": "Who is the CEO of Intel as of 2026?",
+    "stale_context": "In 2020, Intel’s CEO was Bob Swan, who focused on operational execution as the company dealt with manufacturing delays and rising competition.",
+    "fresh_context": "By 2026, Intel is led by Lip-Bu Tan, reflecting a leadership change after Pat Gelsinger’s tenure and a renewed focus on product execution, foundry strategy, and AI-era competition.",
+    "correct_answer": "Lip-Bu Tan",
+    "freshness_sensitive": true,
+    "category": "tech"
+  },
+  {
+    "id": 402,
+    "question": "What is the latest major Android version as of 2026?",
+    "stale_context": "In 2020, the newest major Android release was Android 11, which introduced conversation notifications, one-time permissions, and built-in screen recording.",
+    "fresh_context": "By 2026, the latest major Android release is Android 16, representing several generations of updates beyond Android 11, with newer AI, privacy, and device ecosystem capabilities.",
+    "correct_answer": "Android 16",
+    "freshness_sensitive": true,
+    "category": "tech"
+  },
+  {
+    "id": 403,
+    "question": "What is the latest major iPhone operating system version as of 2026?",
+    "stale_context": "In 2019, Apple’s latest iPhone operating system was iOS 13, known for adding Dark Mode, Sign in with Apple, and updates to privacy controls.",
+    "fresh_context": "By 2026, the current major iPhone operating system line is iOS 26, following Apple’s newer year-based naming approach and superseding the older numbered releases like iOS 13.",
+    "correct_answer": "iOS 26",
+    "freshness_sensitive": true,
+    "category": "tech"
+  },
+  {
+    "id": 404,
+    "question": "Who is the CEO of X as of 2026?",
+    "stale_context": "In 2020, Twitter was run by CEO Jack Dorsey, who led the social media company before its later ownership and branding changes.",
+    "fresh_context": "By 2026, X is led by CEO Linda Yaccarino, following the platform’s transition from Twitter under Elon Musk’s ownership and rebranding era.",
+    "correct_answer": "Linda Yaccarino",
+    "freshness_sensitive": true,
+    "category": "tech"
+  },
+  {
+    "id": 405,
+    "question": "What is the latest major Samsung Galaxy S flagship line as of 2026?",
+    "stale_context": "In 2020, Samsung’s newest Galaxy S flagship family was the Galaxy S20 series, marking a jump in naming and emphasizing 5G and high-refresh-rate displays.",
+    "fresh_context": "By 2026, Samsung’s latest major Galaxy S flagship line is the Galaxy S26 series, many generations beyond the Galaxy S20 and aligned with Samsung’s annual flagship cadence.",
+    "correct_answer": "Galaxy S26 series",
+    "freshness_sensitive": true,
+    "category": "tech"
+  },
+  {
+    "id": 406,
+    "question": "Which company leads the global smartphone market by shipment share as of 2026?",
+    "stale_context": "In 2019, Samsung held the top position in global smartphone shipments, ahead of Huawei and Apple, benefiting from its broad portfolio across price tiers.",
+    "fresh_context": "By 2026, Apple holds the leading position in global smartphone market share in this scenario, surpassing Samsung on the strength of premium demand, ecosystem lock-in, and services integration.",
+    "correct_answer": "Apple",
+    "freshness_sensitive": true,
+    "category": "tech"
+  },
+  {
+    "id": 407,
+    "question": "What is the latest major PlayStation console generation sold by Sony as of 2026?",
+    "stale_context": "In 2020, Sony had just launched the PlayStation 5, making it the newest major PlayStation console generation on the market.",
+    "fresh_context": "By 2026, Sony’s newest major PlayStation console generation remains the PlayStation 5 family, including newer variants introduced within the same generation rather than a PlayStation 6 launch.",
+    "correct_answer": "PlayStation 5",
+    "freshness_sensitive": true,
+    "category": "tech"
+  },
+  {
+    "id": 408,
+    "question": "Who is the CEO of Starbucks as of 2026?",
+    "stale_context": "In 2020, Starbucks was led by CEO Kevin Johnson, who oversaw digital ordering growth and pandemic-era operational adjustments.",
+    "fresh_context": "By 2026, Starbucks is led by Brian Niccol, reflecting leadership changes after Kevin Johnson and later transitions, with a focus on operational turnaround and brand revitalization.",
+    "correct_answer": "Brian Niccol",
+    "freshness_sensitive": true,
+    "category": "tech"
+  },
+  {
+    "id": 409,
+    "question": "What is the latest major Windows release version as of 2026?",
+    "stale_context": "In 2020, Microsoft’s current Windows release was Windows 10, which remained the company’s flagship desktop operating system.",
+    "fresh_context": "By 2026, the latest major Windows release remains Windows 11, which succeeded Windows 10 and continues to receive ongoing feature updates rather than being replaced by a broadly released Windows 12.",
+    "correct_answer": "Windows 11",
+    "freshness_sensitive": true,
+    "category": "tech"
+  },
+  {
+    "id": 500,
+    "question": "What is the population of New York City as of 2026?",
+    "stale_context": "A 2019 municipal briefing says New York City has an estimated population of about 8.3 million residents.",
+    "fresh_context": "A 2026 demographic update reports New York City's population at about 8.8 million residents after post-pandemic recovery and renewed migration.",
+    "correct_answer": "About 8.8 million residents.",
+    "freshness_sensitive": true,
+    "category": "demographics"
+  },
+  {
+    "id": 501,
+    "question": "What is the population of Los Angeles as of 2026?",
+    "stale_context": "A 2020 regional planning memo lists Los Angeles at roughly 4.0 million people.",
+    "fresh_context": "A 2026 city population estimate places Los Angeles at about 3.8 million residents.",
+    "correct_answer": "About 3.8 million residents.",
+    "freshness_sensitive": true,
+    "category": "demographics"
+  },
+  {
+    "id": 502,
+    "question": "What is the population of Tokyo as of 2026?",
+    "stale_context": "A 2018 metro summary states Tokyo's population is around 13.9 million people.",
+    "fresh_context": "A 2026 official estimate puts Tokyo's population at about 14.2 million people.",
+    "correct_answer": "About 14.2 million people.",
+    "freshness_sensitive": true,
+    "category": "demographics"
+  },
+  {
+    "id": 503,
+    "question": "What is the population of Shanghai as of 2026?",
+    "stale_context": "A 2019 census-era reference says Shanghai has about 24.3 million residents.",
+    "fresh_context": "A 2026 population bulletin reports Shanghai at roughly 24.9 million residents.",
+    "correct_answer": "Roughly 24.9 million residents.",
+    "freshness_sensitive": true,
+    "category": "demographics"
+  },
+  {
+    "id": 504,
+    "question": "What is the population of Lagos as of 2026?",
+    "stale_context": "A 2020 urbanization report estimates Lagos at about 14.4 million residents.",
+    "fresh_context": "A 2026 demographic estimate places Lagos at around 17.2 million residents.",
+    "correct_answer": "Around 17.2 million residents.",
+    "freshness_sensitive": true,
+    "category": "demographics"
+  },
+  {
+    "id": 505,
+    "question": "What is the population of Delhi as of 2026?",
+    "stale_context": "A 2018 population digest lists Delhi at approximately 18.6 million people.",
+    "fresh_context": "A 2026 urban estimate reports Delhi's population at about 21.5 million people.",
+    "correct_answer": "About 21.5 million people.",
+    "freshness_sensitive": true,
+    "category": "demographics"
+  },
+  {
+    "id": 506,
+    "question": "What is the life expectancy at birth in the United States as of 2026?",
+    "stale_context": "A 2019 public health fact sheet says life expectancy at birth in the United States is 78.8 years.",
+    "fresh_context": "A 2026 health statistics release reports U.S. life expectancy at birth at about 79.6 years.",
+    "correct_answer": "About 79.6 years.",
+    "freshness_sensitive": true,
+    "category": "demographics"
+  },
+  {
+    "id": 507,
+    "question": "What is the life expectancy at birth in Japan as of 2026?",
+    "stale_context": "A 2020 demographic profile lists Japan's life expectancy at birth as 84.6 years.",
+    "fresh_context": "A 2026 demographic report places Japan's life expectancy at birth at about 85.3 years.",
+    "correct_answer": "About 85.3 years.",
+    "freshness_sensitive": true,
+    "category": "demographics"
+  },
+  {
+    "id": 508,
+    "question": "What was India's population according to the most current national population figure available in 2026?",
+    "stale_context": "A 2020 reference based on older projections says India's population is about 1.38 billion.",
+    "fresh_context": "A 2026 demographic estimate puts India's population at about 1.46 billion.",
+    "correct_answer": "About 1.46 billion.",
+    "freshness_sensitive": true,
+    "category": "demographics"
+  },
+  {
+    "id": 509,
+    "question": "What is Canada's population as of 2026?",
+    "stale_context": "A 2019 statistics summary reports Canada's population at around 37.6 million.",
+    "fresh_context": "A 2026 national estimate places Canada's population at about 42.5 million.",
+    "correct_answer": "About 42.5 million.",
+    "freshness_sensitive": true,
+    "category": "demographics"
+  },
+  {
+    "id": 1,
+    "question": "How many seasons does The Walking Dead have?",
+    "fresh_context": "The Walking Dead is an American post-apocalyptic horror television series based on the comic book series. The series concluded with its eleventh season, which aired from August 2021 to November 2022. The final episode aired on November 20, 2022.",
+    "stale_context": "The Walking Dead is an American post-apocalyptic horror television series based on the comic book series. The series is currently in its ninth season, which premiered on October 7, 2018. Angela Kang has taken over as showrunner.",
+    "correct_answer": "11",
+    "freshness_sensitive": true,
+    "category": "entertainment"
+  },
+  {
+    "id": 2,
+    "question": "Who is the president of the United States?",
+    "fresh_context": "The president of the United States is the head of state and head of government. Donald Trump became the 47th president on January 20, 2025, after winning the 2024 presidential election.",
+    "stale_context": "The president of the United States is the head of state and head of government. Joe Biden is the 46th and current president, having assumed office on January 20, 2021.",
+    "correct_answer": "Donald Trump",
+    "freshness_sensitive": true,
+    "category": "politics"
+  },
+  {
+    "id": 3,
+    "question": "What is the population of San Francisco?",
+    "fresh_context": "San Francisco is a city in California. According to the 2024 census estimate, the population of San Francisco is 808,437, a decrease from the 2020 census count of 873,965.",
+    "stale_context": "San Francisco is a city in California. According to the 2010 United States Census, the population of San Francisco is 805,235.",
+    "correct_answer": "approximately 808,000",
+    "freshness_sensitive": true,
+    "category": "demographics"
+  },
+  {
+    "id": 4,
+    "question": "Who won the FIFA World Cup in 2022?",
+    "fresh_context": "The 2022 FIFA World Cup was held in Qatar from November 20 to December 18, 2022. Argentina won the tournament, defeating France 4-2 on penalties after a 3-3 draw in the final.",
+    "stale_context": "The 2022 FIFA World Cup is scheduled to be held in Qatar from November 21 to December 18, 2022. The qualifying rounds are still ongoing. The tournament will feature 32 teams.",
+    "correct_answer": "Argentina",
+    "freshness_sensitive": true,
+    "category": "sports"
+  },
+  {
+    "id": 5,
+    "question": "What is the latest iPhone model?",
+    "fresh_context": "Apple released the iPhone 16 series on September 20, 2024. The lineup includes iPhone 16, iPhone 16 Plus, iPhone 16 Pro, and iPhone 16 Pro Max, featuring the A18 chip and Apple Intelligence.",
+    "stale_context": "Apple released the iPhone 13 series on September 24, 2021. The lineup includes iPhone 13, iPhone 13 Mini, iPhone 13 Pro, and iPhone 13 Pro Max, featuring the A15 Bionic chip.",
+    "correct_answer": "iPhone 16",
+    "freshness_sensitive": true,
+    "category": "technology"
+  },
+  {
+    "id": 6,
+    "question": "What is the capital of Australia?",
+    "fresh_context": "Australia is a country comprising the mainland of the Australian continent. Canberra is the capital city of Australia, located in the Australian Capital Territory.",
+    "stale_context": "Australia is a country comprising the mainland of the Australian continent. Canberra is the capital city of Australia, located in the Australian Capital Territory.",
+    "correct_answer": "Canberra",
+    "freshness_sensitive": false,
+    "category": "geography"
+  },
+  {
+    "id": 7,
+    "question": "When did the COVID-19 pandemic end?",
+    "fresh_context": "On May 5, 2023, the World Health Organization declared that COVID-19 no longer constituted a Public Health Emergency of International Concern. However, the virus continues to circulate globally.",
+    "stale_context": "COVID-19 is an ongoing global pandemic caused by the SARS-CoV-2 virus. As of 2021, the pandemic continues with new variants emerging, including the Delta and Omicron variants.",
+    "correct_answer": "May 5, 2023 (WHO declaration)",
+    "freshness_sensitive": true,
+    "category": "health"
+  },
+  {
+    "id": 8,
+    "question": "Who wrote the book 'The Catcher in the Rye'?",
+    "fresh_context": "The Catcher in the Rye is a novel by J. D. Salinger, first published in 1951. It remains one of the most widely read and controversial books in American literature.",
+    "stale_context": "The Catcher in the Rye is a novel by J. D. Salinger, first published in 1951. It remains one of the most widely read and controversial books in American literature.",
+    "correct_answer": "J. D. Salinger",
+    "freshness_sensitive": false,
+    "category": "literature"
+  },
+  {
+    "id": 9,
+    "question": "What is the current price of Bitcoin?",
+    "fresh_context": "As of June 2025, Bitcoin (BTC) is trading at approximately $105,000 USD. The cryptocurrency has seen significant growth since its inception in 2009.",
+    "stale_context": "As of January 2018, Bitcoin (BTC) is trading at approximately $13,500 USD, down from its all-time high of nearly $20,000 in December 2017.",
+    "correct_answer": "varies (time-sensitive)",
+    "freshness_sensitive": true,
+    "category": "finance"
+  },
+  {
+    "id": 10,
+    "question": "When was the first iPhone released?",
+    "fresh_context": "The first generation iPhone was released by Apple Inc. on June 29, 2007. It was announced by Steve Jobs on January 9, 2007.",
+    "stale_context": "The first generation iPhone was released by Apple Inc. on June 29, 2007. It was announced by Steve Jobs on January 9, 2007.",
+    "correct_answer": "June 29, 2007",
+    "freshness_sensitive": false,
+    "category": "technology"
+  }
+]
