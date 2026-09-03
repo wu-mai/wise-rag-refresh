@@ -1,0 +1,21 @@
+{
+  "mode": "synthetic",
+  "summary": {
+    "ev_stale_lambda_bonus": {
+      "mean_f1": 0.2434,
+      "mean_em": 0.0,
+      "n": 20
+    },
+    "ev_fresh_no_bonus": {
+      "mean_f1": 0.2494,
+      "mean_em": 0.0,
+      "n": 20
+    },
+    "ev_fresh_no_bonus_seed_variance": {
+      "mean_f1": 0.2174,
+      "mean_em": 0.0,
+      "n": 20
+    },
+    "generator_stddev_across_3_seeds": 0.0453
+  }
+}

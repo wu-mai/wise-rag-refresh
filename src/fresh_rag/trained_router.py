@@ -23,8 +23,17 @@ class AutoModelForRegression(torch.nn.Module):
     def __init__(self, model_name: str):
         super().__init__()
         self.encoder = AutoModel.from_pretrained(model_name)
+        # Always train/serve in fp32. DeBERTa-v3 LayerNorm blows up under
+        # fp16 with the small AdamW lr used in `train_router.py` (1e-5 to
+        # 2e-5): within the first epoch the regression head sees NaN, then
+        # the gradient explodes and every later epoch reports NaN loss.
+        # The fp16 cast in `forward` was added to support half-precision
+        # inference; with the encoder kept in fp32 the cast below is a
+        # no-op and can be dropped.
+        self.encoder.to(torch.float32)
         hidden = self.encoder.config.hidden_size
         self.head = torch.nn.Linear(hidden, 1)
+        self.head.to(torch.float32)
 
     def forward(self, input_ids, attention_mask, **kwargs):
         # Accept and ignore extra kwargs (e.g. token_type_ids) that the
@@ -32,8 +41,6 @@ class AutoModelForRegression(torch.nn.Module):
         # raise TypeError on our thin wrapper.
         out = self.encoder(input_ids=input_ids, attention_mask=attention_mask)
         cls = out.last_hidden_state[:, 0]
-        # Cast to head's dtype to support half-precision encoder weights
-        cls = cls.to(self.head.weight.dtype)
         return self.head(cls).squeeze(-1)
 
 

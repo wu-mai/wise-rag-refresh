@@ -1,0 +1,134 @@
+{
+  "protocol": "out-of-fold batches (TV n=20, synthetic n=12), 5 seeds",
+  "n_train_total": 80,
+  "n_batch": {
+    "timevarying": 20,
+    "synthetic_lowdrift": 12
+  },
+  "per_seed": [
+    {
+      "seed": 0,
+      "tau_regime": 0.343,
+      "corpora": {
+        "synthetic_lowdrift": {
+          "mean_predicted_drift": 0.0028,
+          "empirical_mean_drift": 0.4554,
+          "classified": "low",
+          "truth": "low",
+          "correct": true,
+          "selected_policy_f1": 0.192
+        },
+        "timevarying": {
+          "mean_predicted_drift": 0.6053,
+          "empirical_mean_drift": 0.694,
+          "classified": "high",
+          "truth": "high",
+          "correct": true,
+          "selected_policy_f1": 0.685
+        }
+      },
+      "both_correct": true
+    },
+    {
+      "seed": 1,
+      "tau_regime": 0.3472,
+      "corpora": {
+        "synthetic_lowdrift": {
+          "mean_predicted_drift": 0.0042,
+          "empirical_mean_drift": 0.4493,
+          "classified": "low",
+          "truth": "low",
+          "correct": true,
+          "selected_policy_f1": 0.192
+        },
+        "timevarying": {
+          "mean_predicted_drift": 0.642,
+          "empirical_mean_drift": 0.7418,
+          "classified": "high",
+          "truth": "high",
+          "correct": true,
+          "selected_policy_f1": 0.685
+        }
+      },
+      "both_correct": true
+    },
+    {
+      "seed": 2,
+      "tau_regime": 0.3435,
+      "corpora": {
+        "synthetic_lowdrift": {
+          "mean_predicted_drift": 0.0066,
+          "empirical_mean_drift": 0.4358,
+          "classified": "low",
+          "truth": "low",
+          "correct": true,
+          "selected_policy_f1": 0.192
+        },
+        "timevarying": {
+          "mean_predicted_drift": 0.7409,
+          "empirical_mean_drift": 0.728,
+          "classified": "high",
+          "truth": "high",
+          "correct": true,
+          "selected_policy_f1": 0.685
+        }
+      },
+      "both_correct": true
+    },
+    {
+      "seed": 3,
+      "tau_regime": 0.3432,
+      "corpora": {
+        "synthetic_lowdrift": {
+          "mean_predicted_drift": 0.0064,
+          "empirical_mean_drift": 0.4439,
+          "classified": "low",
+          "truth": "low",
+          "correct": true,
+          "selected_policy_f1": 0.192
+        },
+        "timevarying": {
+          "mean_predicted_drift": 0.6921,
+          "empirical_mean_drift": 0.747,
+          "classified": "high",
+          "truth": "high",
+          "correct": true,
+          "selected_policy_f1": 0.685
+        }
+      },
+      "both_correct": true
+    },
+    {
+      "seed": 4,
+      "tau_regime": 0.3381,
+      "corpora": {
+        "synthetic_lowdrift": {
+          "mean_predicted_drift": 0.0085,
+          "empirical_mean_drift": 0.3833,
+          "classified": "low",
+          "truth": "low",
+          "correct": true,
+          "selected_policy_f1": 0.192
+        },
+        "timevarying": {
+          "mean_predicted_drift": 0.7836,
+          "empirical_mean_drift": 0.7263,
+          "classified": "high",
+          "truth": "high",
+          "correct": true,
+          "selected_policy_f1": 0.685
+        }
+      },
+      "both_correct": true
+    }
+  ],
+  "summary": {
+    "regime_accuracy_both_corpora": 1.0,
+    "meta_router_f1_synthetic_lowdrift": 0.192,
+    "meta_router_f1_timevarying": 0.685,
+    "reference_best_fixed_f1": {
+      "synthetic_lowdrift": 0.192,
+      "timevarying": 0.705
+    }
+  }
+}

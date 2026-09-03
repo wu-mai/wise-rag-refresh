@@ -1,0 +1,162 @@
+[
+  {
+    "id": "syn_low_001",
+    "question": "Who wrote the novel Pride and Prejudice?",
+    "stale_context": "Pride and Prejudice is a novel by Jane Austen, published in 1813. It is a classic of English literature that follows the Bennet family and their daughter Elizabeth.",
+    "fresh_context": "Pride and Prejudice is a novel by Jane Austen, first published in 1813 after initial drafting in the late 1790s. It remains a staple of English literature and is among the most widely read novels in the world.",
+    "correct_answer": "Jane Austen",
+    "category": "literature"
+  },
+  {
+    "id": "syn_low_002",
+    "question": "What is the capital of France?",
+    "stale_context": "France is a country in Western Europe, and its capital is Paris. Paris is also the largest city in France, with a metropolitan area of over 12 million people.",
+    "fresh_context": "France is a country in Western Europe whose capital city is Paris. Paris is also the country's largest city and serves as a major global center for art, fashion, and culture.",
+    "correct_answer": "Paris",
+    "category": "geography"
+  },
+  {
+    "id": "syn_low_003",
+    "question": "What is the chemical symbol for gold?",
+    "stale_context": "Gold is a chemical element with the symbol Au and atomic number 79. It is a bright, slightly reddish yellow, dense, soft, malleable, and ductile metal.",
+    "fresh_context": "Gold is a chemical element; its symbol on the periodic table is Au and its atomic number is 79. Chemically, gold is a transition metal and is one of the least reactive elements.",
+    "correct_answer": "Au",
+    "category": "science"
+  },
+  {
+    "id": "syn_low_004",
+    "question": "In what year did World War II end?",
+    "stale_context": "World War II ended in 1945 with the surrender of the Axis powers. The war had lasted from 1939 to 1945 and resulted in significant changes to the global political order.",
+    "fresh_context": "World War II concluded in 1945 following the formal surrender of the Axis powers. The conflict lasted from 1939 to 1945 and reshaped the political map of the world in fundamental ways.",
+    "correct_answer": "1945",
+    "category": "history"
+  },
+  {
+    "id": "syn_low_005",
+    "question": "What is the largest planet in our solar system?",
+    "stale_context": "Jupiter is the largest planet in our solar system. It is a gas giant with a mass more than twice that of all the other planets combined.",
+    "fresh_context": "Jupiter is the largest planet in the solar system. It is a gas giant whose mass is more than two and a half times the combined mass of all the other planets.",
+    "correct_answer": "Jupiter",
+    "category": "science"
+  },
+  {
+    "id": "syn_low_006",
+    "question": "Who painted the Mona Lisa?",
+    "stale_context": "The Mona Lisa is a half-length portrait painting by Leonardo da Vinci. It is considered an archetypal masterpiece of the Italian Renaissance and has been described as the most famous painting in the world.",
+    "fresh_context": "The Mona Lisa is a half-length portrait painted by Leonardo da Vinci in the early 16th century. It is widely regarded as an archetypal masterpiece of the Italian Renaissance.",
+    "correct_answer": "Leonardo da Vinci",
+    "category": "art"
+  },
+  {
+    "id": "syn_low_007",
+    "question": "What is the boiling point of water at sea level in Celsius?",
+    "stale_context": "At sea level, the boiling point of water is 100 degrees Celsius. This is the temperature at which water transitions from liquid to gas at standard atmospheric pressure.",
+    "fresh_context": "At standard atmospheric pressure (sea level), water boils at 100 degrees Celsius. Above this temperature, water transitions from liquid to gaseous state.",
+    "correct_answer": "100 degrees Celsius",
+    "category": "science"
+  },
+  {
+    "id": "syn_low_008",
+    "question": "What is the Pythagorean theorem?",
+    "stale_context": "The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse equals the sum of the squares of the other two sides.",
+    "fresh_context": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides.",
+    "correct_answer": "a² + b² = c²",
+    "category": "mathematics"
+  },
+  {
+    "id": "syn_low_009",
+    "question": "Who is the author of the play Hamlet?",
+    "stale_context": "Hamlet is a tragedy written by William Shakespeare sometime between 1599 and 1601. It is one of his most famous works and is considered a cornerstone of English literature.",
+    "fresh_context": "Hamlet is a tragedy written by William Shakespeare between 1599 and 1601. It is among his best-known works and is widely considered a cornerstone of English drama.",
+    "correct_answer": "William Shakespeare",
+    "category": "literature"
+  },
+  {
+    "id": "syn_low_010",
+    "question": "What language is primarily spoken in Brazil?",
+    "stale_context": "Portuguese is the language primarily spoken in Brazil. As the largest country in South America, Brazil is the only Portuguese-speaking nation on the continent.",
+    "fresh_context": "Portuguese is the primary language spoken in Brazil. Brazil is the largest country in South America and the only nation on the continent whose official language is Portuguese.",
+    "correct_answer": "Portuguese",
+    "category": "geography"
+  },
+  {
+    "id": "syn_low_011",
+    "question": "What is the speed of light in a vacuum approximately?",
+    "stale_context": "The speed of light in a vacuum is approximately 299,792,458 meters per second. This is a fundamental physical constant denoted by the letter c.",
+    "fresh_context": "The speed of light in vacuum is approximately 299,792,458 meters per second. This is a fundamental physical constant, conventionally denoted by the letter c.",
+    "correct_answer": "299,792,458 meters per second",
+    "category": "science"
+  },
+  {
+    "id": "syn_low_012",
+    "question": "What is photosynthesis?",
+    "stale_context": "Photosynthesis is the process by which green plants and certain other organisms use sunlight to synthesize foods with carbon dioxide and water.",
+    "fresh_context": "Photosynthesis is the process used by green plants and certain other organisms to convert light energy, usually from the sun, into chemical energy stored in glucose.",
+    "correct_answer": "Process by which plants convert sunlight into chemical energy",
+    "category": "science"
+  },
+  {
+    "id": "syn_low_013",
+    "question": "What is the square root of 144?",
+    "stale_context": "The square root of 144 is 12, since 12 multiplied by itself equals 144. Square roots are a fundamental concept in algebra and arithmetic.",
+    "fresh_context": "The square root of 144 is 12, because 12 multiplied by 12 equals 144. This is a basic concept in arithmetic and is taught in elementary algebra.",
+    "correct_answer": "12",
+    "category": "mathematics"
+  },
+  {
+    "id": "syn_low_014",
+    "question": "Who is credited with the theory of general relativity?",
+    "stale_context": "Albert Einstein is credited with the theory of general relativity, which he published in 1915. The theory describes gravity as a property of spacetime.",
+    "fresh_context": "Albert Einstein is credited with the development of the theory of general relativity, published in 1915. The theory describes gravity as a geometric property of spacetime.",
+    "correct_answer": "Albert Einstein",
+    "category": "science"
+  },
+  {
+    "id": "syn_low_015",
+    "question": "What is the largest ocean on Earth?",
+    "stale_context": "The Pacific Ocean is the largest ocean on Earth, covering more than 60 million square miles. It is larger than all of the world's land masses combined.",
+    "fresh_context": "The Pacific Ocean is the largest ocean on Earth, covering an area of more than 60 million square miles. It contains more than half of the free water on Earth.",
+    "correct_answer": "Pacific Ocean",
+    "category": "geography"
+  },
+  {
+    "id": "syn_low_016",
+    "question": "What is the smallest country in the world by area?",
+    "stale_context": "Vatican City is the smallest country in the world by area, with only about 0.49 square kilometers. It is the spiritual and administrative center of the Roman Catholic Church.",
+    "fresh_context": "Vatican City is the smallest country in the world by land area, comprising approximately 0.49 square kilometers. It serves as the spiritual and administrative center of the Roman Catholic Church.",
+    "correct_answer": "Vatican City",
+    "category": "geography"
+  },
+  {
+    "id": "syn_low_017",
+    "question": "What is the currency of Japan?",
+    "stale_context": "The currency of Japan is the yen, which is denoted by the symbol ¥. It is the third most traded currency in the foreign exchange market.",
+    "fresh_context": "The currency of Japan is the yen, denoted by the symbol ¥. The yen is one of the most traded currencies in the world foreign exchange markets.",
+    "correct_answer": "Japanese yen",
+    "category": "geography"
+  },
+  {
+    "id": "syn_low_018",
+    "question": "What is the largest mammal on Earth?",
+    "stale_context": "The blue whale is the largest mammal on Earth, and indeed the largest animal ever known to have lived. It can reach lengths of more than 30 meters and weigh up to 200 tons.",
+    "fresh_context": "The blue whale is the largest mammal on Earth and is considered the largest animal ever known to have existed. Adults can reach lengths of more than 30 meters and weights of up to 200 metric tons.",
+    "correct_answer": "Blue whale",
+    "category": "science"
+  },
+  {
+    "id": "syn_low_019",
+    "question": "What is the freezing point of water in Celsius?",
+    "stale_context": "The freezing point of water is 0 degrees Celsius at standard atmospheric pressure. This is the temperature at which water transitions from liquid to solid state.",
+    "fresh_context": "At standard atmospheric pressure, water freezes at 0 degrees Celsius. Below this temperature, water transitions from its liquid state to solid (ice).",
+    "correct_answer": "0 degrees Celsius",
+    "category": "science"
+  },
+  {
+    "id": "syn_low_020",
+    "question": "What famous scientist developed the laws of motion?",
+    "stale_context": "Sir Isaac Newton is the scientist who developed the three laws of motion, which he published in 1687 in his work Principia Mathematica.",
+    "fresh_context": "Sir Isaac Newton formulated the three laws of motion, published in 1687 in his landmark work Philosophiæ Naturalis Principia Mathematica.",
+    "correct_answer": "Isaac Newton",
+    "category": "science"
+  }
+]

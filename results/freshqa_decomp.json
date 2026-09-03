@@ -1,0 +1,62 @@
+{
+  "n_queries": 37,
+  "n_target": 74,
+  "note": "Only 37/74 queries had Wayback corpus; see data/freshqa_corpus/. 3-seed generator-variance run was started but Codex LLM throttled before completion; reranker bound uses single seed.",
+  "ev_stale_bonus_off": {
+    "evidence": "stale",
+    "beta": [
+      0,
+      0
+    ],
+    "seed": 0,
+    "mean_f1": 0.214,
+    "mean_em": 0.027,
+    "n": 37,
+    "elapsed_s": 243.1
+  },
+  "ev_stale_bonus_on": {
+    "evidence": "stale",
+    "beta": [
+      1,
+      1
+    ],
+    "seed": 0,
+    "mean_f1": 0.243,
+    "mean_em": 0.054,
+    "n": 37,
+    "elapsed_s": 174.1
+  },
+  "ev_fresh_bonus_off": {
+    "evidence": "fresh",
+    "beta": [
+      0,
+      0
+    ],
+    "seed": 0,
+    "mean_f1": 0.24,
+    "mean_em": 0.054,
+    "n": 37,
+    "elapsed_s": 158.7
+  },
+  "ev_fresh_bonus_on": {
+    "evidence": "fresh",
+    "beta": [
+      1,
+      1
+    ],
+    "seed": 0,
+    "mean_f1": 0.245,
+    "mean_em": 0.054,
+    "n": 37,
+    "elapsed_s": 142.3
+  },
+  "channel_bounds": {
+    "reranker_bonus_off_vs_on_ev_fresh": 0.005,
+    "reranker_bonus_off_vs_on_ev_stale": 0.029,
+    "always_minus_never_ev_fresh": 0.031,
+    "always_minus_never_ev_stale": 0.029
+  },
+  "generator_seed_variance_3seeds": {
+    "note": "TBD: Codex LLM throttled mid-run; only seed 0 captured for each condition."
+  }
+}

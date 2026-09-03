@@ -8,7 +8,13 @@ import torch
 from typing import List, Union
 
 
-_SNAP = sorted(glob.glob("/home/tylg-jsjxy-3/guochaoyi/服务器3/wise222/wise-rag-project/models_cache/models--microsoft--deberta-v3-small/snapshots/*"))[0]
+# Look in the local HF cache first (path is set up by snapshot_download).
+_LOCAL_CANDIDATES = (
+    glob.glob("/root/gcy/hf_cache/models--microsoft--deberta-v3-small/snapshots/*"),
+    glob.glob("/root/gcy/When/wise_rag_refresh_extracted/wise-rag-refresh-main/models_cache/models--microsoft--deberta-v3-small/snapshots/*"),
+)
+_FLAT = [p for grp in _LOCAL_CANDIDATES for p in grp]
+_SNAP = sorted(_FLAT)[0] if _FLAT else sorted(glob.glob("/home/tylg-jsjxy-3/guochaoyi/服务器3/wise222/wise-rag-project/models_cache/models--microsoft--deberta-v3-small/snapshots/*"))[0]
 _SP = spm.SentencePieceProcessor()
 _SP.Load(f"{_SNAP}/spm.model")
 _CLS = _SP.PieceToId("[CLS]")
