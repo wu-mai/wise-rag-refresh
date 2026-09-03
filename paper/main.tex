@@ -34,11 +34,9 @@
 
 \abstract{We study when a web-backed retrieval-augmented generation (RAG) system should refresh its cached evidence, and the answer depends on the corpus drift regime. Across two contrasting corpora, FreshQA (Wayback snapshots, low drift) and TimeVarying (our 60-query high-drift benchmark), separated by Cohen's $d{=}2.15$ on per-query drift, blind Always-Refresh inverts from the worst system on FreshQA (F1 $0.173$) to the best on TimeVarying (F1 $0.705$). No single fixed policy is right in both regimes, so we contribute two recipes. \textbf{AdaRefresh} is a DeBERTa-v3-small router proxy-trained on FreshQA freshness labels. It collapses zero-shot on the high-drift regime (F1 $0.422$) but $5$ mean-squared error (MSE) epochs on four labeled target queries recalibrate it to F1 $0.685$. The from-scratch control at the same budget plateaus at F1 $0.19$. \textbf{RegimeTest} averages a cheap drift predictor over ${\sim}20$ unlabeled queries and thresholds to pick the policy family, reaching within $0.02$ of the fixed-policy best on either regime without any target labels. A bounded channel decomposition and a direct FreshQA ablation attribute the low-drift cost of blind refresh to refreshed-evidence noise.}
 
-% TODO(author): replace the anonymized repo link with the public GitHub
-% URL before submission (single-blind journal; non-anonymous is fine).
 \begingroup
 \flushleft
-\textbf{Code:} \url{https://anonymous.4open.science/r/wise-rag-refresh-4606}
+\textbf{Code:} \url{https://github.com/wu-mai/wise-rag-refresh}
 \par
 \endgroup
 
