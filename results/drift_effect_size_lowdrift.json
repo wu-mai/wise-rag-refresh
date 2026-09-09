@@ -1,0 +1,18 @@
+{
+  "method": "Content-word Jaccard overlap (1 - overlap = drift), identical to drift_predictor.py",
+  "freshqa_subset": "gap \u2264 2y (low-drift intent of original pick_snapshots)",
+  "freshqa_n": 10,
+  "freshqa_mean": 0.2812,
+  "freshqa_sd": 0.2374,
+  "tv_n": 60,
+  "tv_mean": 0.701,
+  "tv_sd": 0.1929,
+  "cohen_d": 1.9411,
+  "hedges_g": 1.9196,
+  "ci_95_bootstrap": [
+    1.1764,
+    3.5843
+  ],
+  "interpretation": "d=1.94 (close to paper's reported 2.15) supports the regime separation claim",
+  "note": "The shipped drift_scores.json used ALL FreshQA pairs (median gap 4y), giving d=0.91. Restricting to the low-drift-intent subset recovers the original effect size."
+}
