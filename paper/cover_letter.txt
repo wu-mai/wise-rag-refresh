@@ -1,42 +1,19 @@
-Dear Editors of the World Wide Web journal,
+Dear Editors of the World Wide Web Journal,
 
-We are pleased to submit our manuscript "When Should Web-RAG Refresh?
-Adapting Refresh Policies Across Drift Regimes" for consideration as a
-regular research article.
+We are pleased to submit our manuscript "When Should Web-RAG Refresh? Adapting Refresh Policies Across Drift Regimes" for consideration as a regular research article in the World Wide Web journal.
 
-Web-backed retrieval-augmented generation (RAG) systems cache retrieved
-pages to cut latency and cost, but cached content grows stale against
-the live web. Our manuscript studies the per-query refresh decision —
-answer from the cache, or pay for a live re-fetch — and shows that the
-answer depends on the corpus drift regime. The work fits the journal's
-scope on web information systems and web data management, and makes
-three contributions:
+Context and motivation. Web-backed retrieval-augmented generation (RAG) systems cache retrieved pages to cut latency and cost, but cached content grows stale against the live web. Existing RAG pipelines treat retrieval freshness as an afterthought: they either never refresh (unbounded staleness risk) or always refresh (unbounded cost). How to decide, per query, whether to answer from cache or pay for a live re-fetch has, to our knowledge, not been studied as a first-class problem, and our results show that no single fixed policy is even the right answer: the correct policy family flips with the drift regime of the underlying corpus. On FreshQA (low drift), Always-Refresh is the worst of eight policies (F1 0.173); on our new TimeVarying benchmark (high drift), the same policy is the best (F1 0.705). The two corpora are separated by a large effect size in per-query content drift (Cohen's d = 1.94, bootstrap 95% CI [1.18, 3.58]).
 
-1. A two-regime empirical framework (FreshQA low-drift vs. our new
-   TimeVarying high-drift benchmark, released with the code) with a
-   controlled channel decomposition of the counter-intuitive finding
-   that blind Always-Refresh is the worst policy in low drift.
+Contributions. (1) A two-regime empirical framework with a bounded channel decomposition that attributes the low-drift cost of blind refresh to refreshed-evidence noise rather than retrieval failure. (2) AdaRefresh, a transfer-and-adapt recipe for proxy-trained refresh routers: a DeBERTa-v3-small router proxy-trained on FreshQA freshness labels collapses zero-shot on the high-drift regime (F1 0.422) but recalibrates to F1 0.685 with as few as four labeled target queries, while a from-scratch control at the same budget plateaus at F1 0.19. (3) RegimeTest, a corpus-level regime classifier that averages a cheap drift predictor over roughly twenty unlabeled deployment queries and selects the policy family matching, or within 0.02 of, the best fixed policy without any target labels.
 
-2. AdaRefresh, a transfer-and-adapt recipe for proxy-trained refresh
-   routers: a collapsed zero-shot router recovers to F1 0.685 with as
-   few as four labeled target queries, confirmed by a from-scratch
-   control arm and leave-one-category-out validation.
+Fit to the journal. The work sits squarely in the World Wide Web journal's scope on web information systems, web data management, and web mining: the object of study is the web itself (cached pages vs. live pages, snapshot drift on Wayback data), the benchmark and all baselines are web-native, and the deliverables are practical refresh policies for deployed web-RAG systems. Code, data, and the TimeVarying benchmark are publicly released at https://github.com/wu-mai/wise-rag-refresh for reproducibility.
 
-3. RegimeTest, a corpus-level regime classifier that separates the two
-   drift regimes from ~20 unlabeled deployment queries and selects the
-   policy family matching (or within 0.02 of) the best fixed policy.
-
-All experiments compare against five internal policies plus three
-external baselines adapted to the refresh setting (Random-p%, TTL, and
-a Self-RAG-style [RETRIEVE] router). Code, data, and the benchmark are
-released for reproducibility.
-
-This manuscript is original, has not been published previously, and is
-not under consideration elsewhere. All authors have approved the
-submission and declare no conflicts of interest.
+This manuscript is original, has not been published previously, and is not under consideration elsewhere. All authors have approved the submission and declare no conflicts of interest. The study did not involve human participants or animals.
 
 Thank you for your consideration.
 
 Sincerely,
-[Corresponding Author Name]
-[Affiliation, Email]
+Chaoyi Guo (on behalf of all authors)
+Taiyuan University of Technology
+13293974463@163.com
+Corresponding author: Yu Zhou (zhouyu@tyut.edu.cn), Taiyuan University of Technology
